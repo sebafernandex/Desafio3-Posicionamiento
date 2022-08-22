@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    width: 1080px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+
+nav ul {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+.mainsection {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.mainsection div,
+.mainsection img {
+    display: inline-block;
+    width: 40%;
+    margin: 2%;
+    vertical-align: middle;
+}
+
+.mainsection p {
+    text-align: justify;
+    color: #fff;
+}
+
+.galery {
+    text-align: center;
+}
+
+.galery img {
+    width: 30%;
+    margin: 0px 15px 0px 15px;
+}
+
+.galery text {
+    display: inline-block;
+
+}
+
+footer {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px;
+    margin: 2%;
+}
+
+.titlesection {
+    text-align: center;
+    color: #00ff9d;
+    font-size: 2em;
+    }
+
+.features {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    display: flow-root;
+    margin: 20px 0px 20px 0px;
+    padding: 30px 10px 30px 10px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    padding: 5px;
+    margin: 1%;
+    border: 1px solid rgb(0, 255, 200);
+    border-radius: 10px;
+    float: left;
+}
+
+.feature p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.feature i {
+    font-size: 50px;
+    padding: 15px;
+}
